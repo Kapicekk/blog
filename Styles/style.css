@@ -1,0 +1,295 @@
+ body {
+	font-size: 20px;
+	color: #212529;
+}
+
+p {
+	line-height: 1.5;
+	margin: 30px 0
+}
+
+p a {
+	text-decoration: underline
+}
+
+h6 {
+	font-weight: 800;
+}
+
+a {
+	color: #212529;
+	transition: all .2s
+}
+
+
+#mainNav {
+	position: absolute;
+	border-bottom: 1px solid #e9ecef;
+	background-color: #fff;
+}
+
+#mainNav .navbar-brand {
+	font-weight: 800;
+	color: #343a40
+}
+
+#mainNav .navbar-brand:hover {
+	transition: 0.25s;
+	color: rgb(161, 161, 161);
+}
+
+#mainNav .navbar-toggler {
+	font-size: 12px;
+	font-weight: 800;
+	padding: 13px;
+	text-transform: uppercase;
+	color: #343a40
+}
+
+#mainNav .navbar-nav>li.nav-item>a {
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	text-transform: uppercase
+}
+/**/
+
+
+header.masthead {
+	margin-bottom: 50px;
+	background: no-repeat center center;
+	background-color: #868e96;
+	background-attachment: scroll;
+	position: relative;
+	background-size: cover
+}
+
+header.masthead .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #212529;
+	opacity: 0.32;
+}
+
+header.masthead .site-heading {
+	padding: 200px 0 150px;
+	color: #fff;
+	text-align: center
+}
+
+@media only screen and (min-width:768px) {
+	header.masthead .site-heading {
+		padding: 200px 0
+	}
+}
+
+header.masthead .site-heading h1 {
+	font-size: 50px;
+	margin-top: 0
+}
+
+
+@media only screen and (min-width:768px) {
+	header.masthead .site-heading h1 {
+		font-size: 80px
+	}
+}
+
+header.masthead .post-heading h1 {
+	font-size: 35px
+}
+
+header.masthead .post-heading .subheading {
+	line-height: 1.1;
+	display: block
+}
+
+header.masthead .post-heading .subheading {
+	font-size: 24px;
+	font-weight: 600;
+	margin: 10px 0 30px;
+}
+
+header.masthead .post-heading .meta {
+	font-size: 20px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+header.masthead .post-heading .meta a {
+	color: #fff
+}
+
+.post-preview{
+	text-align: justify;
+}
+
+.post-preview>a {
+	color: #212529
+}
+
+.post-preview>a:focus,
+.post-preview>a:hover {
+	text-decoration: none;
+	color: #0085a1
+}
+
+.post-preview>a>.post-title {
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px
+}
+
+.post-preview>a>.post-subtitle {
+	font-weight: 300;
+	margin: 0 0 10px
+}
+
+.post-preview>.post-meta {
+	font-size: 18px;
+	font-style: italic;
+	margin-top: 0;
+	color: #868e96
+}
+
+.post-preview>.post-meta>a {
+	text-decoration: none;
+	color: #212529
+}
+
+.post-preview>.post-meta>a:focus,
+.post-preview>.post-meta>a:hover {
+	text-decoration: underline;
+	color: #0085a1
+}
+
+@media only screen and (min-width:768px) {
+	.post-preview>a>.post-title {
+		font-size: 36px
+	}
+}
+
+footer .list-inline {
+	margin: 0;
+	padding: 0
+}
+
+footer .copyright {
+	font-size: 14px;
+	margin-bottom: 0;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.btn {
+	font-size: 14px;
+	font-weight: 600;
+	padding: 15px 25px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+/**/
+
+.logout {
+	font-size: 20px;
+}
+.logout:hover{
+	transition: 0.5s;
+	text-decoration: underline;
+}
+.trigger-p {
+	font-size: 25px;
+}
+.trigger-p:hover {
+	text-decoration: underline;
+	transition: 0.5s;
+	cursor: pointer;
+}
+input {
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+}
+.confirm-button {
+	background-color:#353A3E;
+	color: white;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+	margin-top: 15px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+.confirm-button:hover {
+	opacity: 0.8;
+}
+.container2 {
+	padding: 16px;
+    color: black;
+    border: black 2px solid;
+}
+.container2 input{
+	color: black;
+}
+.menu {
+	display: none;
+	position: fixed;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+.form-menu {
+	background-color: white;
+	margin: auto;
+	width: 30%;
+	color: black;
+}
+.form-p {
+	padding-bottom: 1px;
+	color: black;
+    display: block;
+    text-align: center;
+}
+
+.registration-button {
+	color: black;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+}
+.registration-button:hover {
+	opacity: 0.8;
+}
+
+@media (max-width: 800px) {
+	.form-menu {
+		width: 95% !important;
+	}
+}
+
+.navbar-brand-log {
+	cursor: pointer;
+}
+
+.buttons-post {
+	display: flex;
+	justify-content: center;
+}
+
+.buttons-post a{
+	margin: 8px;
+	margin-bottom: 20px;
+}
+
+.postContent {
+	overflow-wrap: break-word;
+	text-align: justify;
+}
